@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_agent_check_param">
+    <sn_agent_check_param action="DELETE">
+        <active>true</active>
+        <check display_value="util.check-ping">23fab3d51b723550824752c1604bcb91</check>
+        <description/>
+        <flag>-c</flag>
+        <is_draft>true</is_draft>
+        <label/>
+        <mandatory>false</mandatory>
+        <name>ratio</name>
+        <order>100</order>
+        <published_param/>
+        <published_parent/>
+        <script/>
+        <sys_class_name>sn_agent_check_param</sys_class_name>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2023-11-28 16:38:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a7fab3d51b723550824752c1604bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>-c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
+        <sys_update_name>sn_agent_check_param_a7fab3d51b723550824752c1604bcb94</sys_update_name>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2023-11-28 16:38:12</sys_updated_on>
+        <validation_regex/>
+        <value>5</value>
+        <value_required>true</value_required>
+    </sn_agent_check_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</application>
+        <file_path/>
+        <instance_id>efe2cdc7db351c10bc8b7f693296192d</instance_id>
+        <instance_name>ncgovappdev</instance_name>
+        <name>sn_agent_check_param_a7fab3d51b723550824752c1604bcb94</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_agent_check_param"><sn_agent_check_param action="INSERT_OR_UPDATE"><active>true</active><check display_value="util.check-ping">23fab3d51b723550824752c1604bcb91</check><description/><flag>-c</flag><is_draft>true</is_draft><label/><mandatory>false</mandatory><name>ratio</name><order>100</order><published_param/><published_parent/><script/><sys_class_name>sn_agent_check_param</sys_class_name><sys_created_by>jlbring</sys_created_by><sys_created_on>2023-11-28 16:38:12</sys_created_on><sys_domain>global</sys_domain><sys_id>a7fab3d51b723550824752c1604bcb94</sys_id><sys_mod_count>0</sys_mod_count><sys_name>-c</sys_name><sys_overrides/><sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package><sys_policy/><sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope><sys_update_name>sn_agent_check_param_a7fab3d51b723550824752c1604bcb94</sys_update_name><sys_updated_by>jlbring</sys_updated_by><sys_updated_on>2023-11-28 16:38:12</sys_updated_on><validation_regex/><value>5</value><value_required>true</value_required></sn_agent_check_param></record_update>]]></payload>
+        <payload_hash>67660807</payload_hash>
+        <record_name>-c</record_name>
+        <reverted_from/>
+        <source>9180ffd5dbbe715040eae46b13961971</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2023-11-28 16:38:12</sys_created_on>
+        <sys_id>effa7fd51b723550824752c1604bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c16cb9e510000001</sys_recorded_at>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2023-11-28 16:38:12</sys_updated_on>
+        <type>Check Parameter</type>
+        <update_guid>e3fa7fd500723550fb031d525a9d39df</update_guid>
+        <update_guid_history>e3fa7fd500723550fb031d525a9d39df:67660807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 11/28/2023 12:03:12">25b0c461db72b15040eae46b13961999</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2023-11-28 17:03:12</sys_created_on>
+        <sys_db_object display_value="" name="sn_agent_check_param">sn_agent_check_param</sys_db_object>
+        <sys_id>5754784fa34d4ef0aa69ba5b18abc419</sys_id>
+        <sys_metadata>a7fab3d51b723550824752c1604bcb94</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>-c</sys_name>
+        <sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
+        <sys_scope_delete display_value="">c1470e7b2f694db1a23af967d0ce9771</sys_scope_delete>
+        <sys_update_name>sn_agent_check_param_a7fab3d51b723550824752c1604bcb94</sys_update_name>
+        <sys_update_version display_value="sn_agent_check_param_a7fab3d51b723550824752c1604bcb94">effa7fd51b723550824752c1604bcbdf</sys_update_version>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2023-11-28 17:03:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

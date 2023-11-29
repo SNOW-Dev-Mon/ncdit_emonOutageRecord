@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_agent_policy">
+    <sn_agent_policy action="DELETE">
+        <active>true</active>
+        <agent_cluster_name/>
+        <auto_binding>true</auto_binding>
+        <check_group/>
+        <checks_str>a543ab237f705300f128134f8dfa91d6</checks_str>
+        <config_file_creation_script><![CDATA[/*  
+The argument policyGr is the GlideRecord of the current policy to get the "Monitored Cis"
+The script returns a java script object containing the monitoredCIs details used to create the json config file for check execution 
+ */
+ 
+ (function createConfigFile(policyGr) {
+ 
+ var ciDetails = []; 
+ 
+ //return the list of the CIs in the json format to create the config file.
+  return ciDetails;
+ 
+ })(policyGr);]]></config_file_creation_script>
+        <cred_alias/>
+        <credential_alias/>
+        <cron_expressions/>
+        <description>Access point devices</description>
+        <filter table="cmdb_ci_netgear">sys_class_name=cmdb_ci_wap_network^install_status=1^operational_status=1<item display_value="Wireless Access Point" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_wap_network"/>
+            <item display_value="Installed" endquery="false" field="install_status" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="Operational" endquery="false" field="operational_status" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        </filter>
+        <inherit_from_parent>true</inherit_from_parent>
+        <interval>360</interval>
+        <is_cron>false</is_cron>
+        <is_draft>true</is_draft>
+        <is_interval>true</is_interval>
+        <is_service_filter>false</is_service_filter>
+        <monitored_ci_group/>
+        <monitored_ci_script><![CDATA[/*
+      Provide a script to get monitored CI type. 
+      The script returns a GlideRecord containing the chosen table and filter. 
+      // WARNING: To prevent Out of Memory issues, please verify the number of records on the GlideRecord you return, is manageable. 
+      // Usually less than 400,000 records. This number is configured globally in the system property: in sn_agent.max_number_of_monitored_cis_per_policy 
+      Example code: 
+             var monitoredCis = new GlideRecord('cmdb_ci_computer'); 
+             monitoredCis.addQuery('name', 'test'); 
+             // Do not query here and return the GR - let the caller do the query for added efficiency 
+             answer = monitoredCis; 
+ */
+ 
+ (function getMonitoredCiType(){
+ 
+  
+ })();]]></monitored_ci_script>
+        <monitored_ci_type_filter>true</monitored_ci_type_filter>
+        <monitored_ci_type_group>false</monitored_ci_type_group>
+        <monitored_ci_type_script>false</monitored_ci_type_script>
+        <multi_ci_mode>false</multi_ci_mode>
+        <name>DIT_UP_DOWN_APS</name>
+        <order>100</order>
+        <proxy_advanced>false</proxy_advanced>
+        <proxy_agent display_value="Agent_nccc49.its.state.nc.us">139fd96b1b8721d06e32eaccac4bcb75</proxy_agent>
+        <proxy_cluster>false</proxy_cluster>
+        <proxy_filter/>
+        <proxy_script><![CDATA[/*  
+The argument currentCiResult is the GlideRecord of the filter defined in the "Monitored Cis" tab
+  The script returns a comma-separated string containing the chosen proxy agent IDs
+ */
+ 
+ (function findProxyAgent(currentCiResult){
+ 
+  
+ })(currentCiResult);]]></proxy_script>
+        <proxy_script_advanced>false</proxy_script_advanced>
+        <publish_error/>
+        <publish_status>0</publish_status>
+        <published_parent/>
+        <related_policy/>
+        <relationship_state>0</relationship_state>
+        <run_checks_on_all_proxyagents>true</run_checks_on_all_proxyagents>
+        <service_filter/>
+        <single_proxy_agent>true</single_proxy_agent>
+        <sys_class_name>sn_agent_policy</sys_class_name>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2023-11-28 16:38:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1b7a7f951b723550824752c1604bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DIT_UP_DOWN_APS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
+        <sys_update_name>sn_agent_policy_1b7a7f951b723550824752c1604bcb96</sys_update_name>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2023-11-28 16:38:12</sys_updated_on>
+        <table>cmdb_ci_netgear</table>
+    </sn_agent_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</application>
+        <file_path/>
+        <instance_id>efe2cdc7db351c10bc8b7f693296192d</instance_id>
+        <instance_name>ncgovappdev</instance_name>
+        <name>sn_agent_policy_1b7a7f951b723550824752c1604bcb96</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sn_agent_policy"&gt;&lt;sn_agent_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;agent_cluster_name/&gt;&lt;auto_binding&gt;true&lt;/auto_binding&gt;&lt;check_group/&gt;&lt;checks_str&gt;a543ab237f705300f128134f8dfa91d6&lt;/checks_str&gt;&lt;config_file_creation_script&gt;&lt;![CDATA[/*  
+The argument policyGr is the GlideRecord of the current policy to get the "Monitored Cis"
+The script returns a java script object containing the monitoredCIs details used to create the json config file for check execution 
+ */
+ 
+ (function createConfigFile(policyGr) {
+ 
+ var ciDetails = []; 
+ 
+ //return the list of the CIs in the json format to create the config file.
+  return ciDetails;
+ 
+ })(policyGr);]]&gt;&lt;/config_file_creation_script&gt;&lt;cred_alias/&gt;&lt;credential_alias/&gt;&lt;cron_expressions/&gt;&lt;description&gt;Access point devices&lt;/description&gt;&lt;filter table="cmdb_ci_netgear"&gt;sys_class_name=cmdb_ci_wap_network^install_status=1^operational_status=1&lt;item display_value="Wireless Access Point" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_wap_network"/&gt;&lt;item display_value="Installed" endquery="false" field="install_status" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item display_value="Operational" endquery="false" field="operational_status" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;/filter&gt;&lt;inherit_from_parent&gt;true&lt;/inherit_from_parent&gt;&lt;interval&gt;360&lt;/interval&gt;&lt;is_cron&gt;false&lt;/is_cron&gt;&lt;is_draft&gt;true&lt;/is_draft&gt;&lt;is_interval&gt;true&lt;/is_interval&gt;&lt;is_service_filter&gt;false&lt;/is_service_filter&gt;&lt;monitored_ci_group/&gt;&lt;monitored_ci_script&gt;&lt;![CDATA[/*
+      Provide a script to get monitored CI type. 
+      The script returns a GlideRecord containing the chosen table and filter. 
+      // WARNING: To prevent Out of Memory issues, please verify the number of records on the GlideRecord you return, is manageable. 
+      // Usually less than 400,000 records. This number is configured globally in the system property: in sn_agent.max_number_of_monitored_cis_per_policy 
+      Example code: 
+             var monitoredCis = new GlideRecord('cmdb_ci_computer'); 
+             monitoredCis.addQuery('name', 'test'); 
+             // Do not query here and return the GR - let the caller do the query for added efficiency 
+             answer = monitoredCis; 
+ */
+ 
+ (function getMonitoredCiType(){
+ 
+  
+ })();]]&gt;&lt;/monitored_ci_script&gt;&lt;monitored_ci_type_filter&gt;true&lt;/monitored_ci_type_filter&gt;&lt;monitored_ci_type_group&gt;false&lt;/monitored_ci_type_group&gt;&lt;monitored_ci_type_script&gt;false&lt;/monitored_ci_type_script&gt;&lt;multi_ci_mode&gt;false&lt;/multi_ci_mode&gt;&lt;name&gt;DIT_UP_DOWN_APS&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;proxy_advanced&gt;false&lt;/proxy_advanced&gt;&lt;proxy_agent display_value="Agent_nccc49.its.state.nc.us"&gt;139fd96b1b8721d06e32eaccac4bcb75&lt;/proxy_agent&gt;&lt;proxy_cluster&gt;false&lt;/proxy_cluster&gt;&lt;proxy_filter/&gt;&lt;proxy_script&gt;&lt;![CDATA[/*  
+The argument currentCiResult is the GlideRecord of the filter defined in the "Monitored Cis" tab
+  The script returns a comma-separated string containing the chosen proxy agent IDs
+ */
+ 
+ (function findProxyAgent(currentCiResult){
+ 
+  
+ })(currentCiResult);]]&gt;&lt;/proxy_script&gt;&lt;proxy_script_advanced&gt;false&lt;/proxy_script_advanced&gt;&lt;publish_error/&gt;&lt;publish_status&gt;0&lt;/publish_status&gt;&lt;published_parent/&gt;&lt;related_policy/&gt;&lt;relationship_state&gt;0&lt;/relationship_state&gt;&lt;run_checks_on_all_proxyagents&gt;true&lt;/run_checks_on_all_proxyagents&gt;&lt;service_filter/&gt;&lt;single_proxy_agent&gt;true&lt;/single_proxy_agent&gt;&lt;sys_class_name&gt;sn_agent_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jlbring&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-28 16:38:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;1b7a7f951b723550824752c1604bcb96&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;DIT_UP_DOWN_APS&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Device Outages" source="x_g_sonc_device_ou"&gt;9980ffd5dbbe715040eae46b1396196e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Device Outages"&gt;9980ffd5dbbe715040eae46b1396196e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_agent_policy_1b7a7f951b723550824752c1604bcb96&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jlbring&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-28 16:38:12&lt;/sys_updated_on&gt;&lt;table&gt;cmdb_ci_netgear&lt;/table&gt;&lt;/sn_agent_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1330759575</payload_hash>
+        <record_name>DIT_UP_DOWN_APS</record_name>
+        <reverted_from/>
+        <source>9180ffd5dbbe715040eae46b13961971</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2023-11-28 16:38:12</sys_created_on>
+        <sys_id>2ffa7fd51b723550824752c1604bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c16cb9e6b0000001</sys_recorded_at>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2023-11-28 16:38:12</sys_updated_on>
+        <type>Policy</type>
+        <update_guid>23fa7fd5c7723550343d966d0c9206e1</update_guid>
+        <update_guid_history>23fa7fd5c7723550343d966d0c9206e1:-1330759575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 11/28/2023 12:03:13">f5b0c461db72b15040eae46b139619a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2023-11-28 17:03:13</sys_created_on>
+        <sys_db_object display_value="" name="sn_agent_policy">sn_agent_policy</sys_db_object>
+        <sys_id>044d80b4823040a48b873d43fcdf9a24</sys_id>
+        <sys_metadata>1b7a7f951b723550824752c1604bcb96</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DIT_UP_DOWN_APS</sys_name>
+        <sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
+        <sys_scope_delete display_value="">c1470e7b2f694db1a23af967d0ce9771</sys_scope_delete>
+        <sys_update_name>sn_agent_policy_1b7a7f951b723550824752c1604bcb96</sys_update_name>
+        <sys_update_version display_value="sn_agent_policy_1b7a7f951b723550824752c1604bcb96">2ffa7fd51b723550824752c1604bcbe1</sys_update_version>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2023-11-28 17:03:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
