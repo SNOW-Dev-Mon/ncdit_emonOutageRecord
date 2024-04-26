@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule_maintenance">
+    <cmn_schedule_maintenance action="DELETE">
+        <applies_to>cmdb_ci_endpoint_http</applies_to>
+        <calendar_name>Test Maintenance schedule</calendar_name>
+        <condition/>
+        <description>This from 4pm-6pm</description>
+        <document/>
+        <document_key/>
+        <is_legacy_schedule>true</is_legacy_schedule>
+        <label>Test Maintenance schedule</label>
+        <name>Test Maintenance schedule</name>
+        <parent/>
+        <plural_label/>
+        <read_only>false</read_only>
+        <source>cmdb_ci</source>
+        <sys_class_name>cmn_schedule_maintenance</sys_class_name>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2024-04-22 19:56:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4f102c6847fd8e9040fd43ff336d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Maintenance schedule</sys_name>
+        <sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
+        <sys_update_name>cmn_schedule_maintenance_4f102c6847fd8e9040fd43ff336d4388</sys_update_name>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2024-04-22 19:56:25</sys_updated_on>
+        <time_zone>US/Eastern</time_zone>
+        <type>maintenance</type>
+    </cmn_schedule_maintenance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</application>
+        <file_path/>
+        <instance_id>efe2cdc7db351c10bc8b7f693296192d</instance_id>
+        <instance_name>ncgovappdev</instance_name>
+        <name>cmn_schedule_maintenance_4f102c6847fd8e9040fd43ff336d4388</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule_maintenance"><cmn_schedule_maintenance action="INSERT_OR_UPDATE"><applies_to>cmdb_ci_endpoint_http</applies_to><calendar_name>Test Maintenance schedule</calendar_name><condition/><description>This from 4pm-6pm</description><document/><document_key/><is_legacy_schedule>true</is_legacy_schedule><label>Test Maintenance schedule</label><name>Test Maintenance schedule</name><parent/><plural_label/><read_only>false</read_only><source>cmdb_ci</source><sys_class_name>cmn_schedule_maintenance</sys_class_name><sys_created_by>jlbring</sys_created_by><sys_created_on>2024-04-22 19:56:25</sys_created_on><sys_domain>global</sys_domain><sys_id>4f102c6847fd8e9040fd43ff336d4388</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Maintenance schedule</sys_name><sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package><sys_policy/><sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope><sys_update_name>cmn_schedule_maintenance_4f102c6847fd8e9040fd43ff336d4388</sys_update_name><sys_updated_by>jlbring</sys_updated_by><sys_updated_on>2024-04-22 19:56:25</sys_updated_on><time_zone>US/Eastern</time_zone><type>maintenance</type></cmn_schedule_maintenance></record_update>]]></payload>
+        <payload_hash>-1545250687</payload_hash>
+        <record_name>Test Maintenance schedule</record_name>
+        <reverted_from/>
+        <source>6e8cce311bfaf550824752c1604bcb59</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2024-04-22 19:56:25</sys_created_on>
+        <sys_id>2e70a0a847fd8e9040fd43ff336d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f07618f4f0000001</sys_recorded_at>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2024-04-22 19:56:25</sys_updated_on>
+        <type>Maintenance Schedule</type>
+        <update_guid>ee70a0a809fd8e9017aeafc8feab2597</update_guid>
+        <update_guid_history>ee70a0a809fd8e9017aeafc8feab2597:-1545250687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 04/22/2024 16:44:21">a47be46c4771ce9040fd43ff336d43ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jlbring</sys_created_by>
+        <sys_created_on>2024-04-22 20:44:21</sys_created_on>
+        <sys_db_object display_value="" name="cmn_schedule_maintenance">cmn_schedule_maintenance</sys_db_object>
+        <sys_id>16941a30c4e4434b82fbc18698f15c81</sys_id>
+        <sys_metadata>4f102c6847fd8e9040fd43ff336d4388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Maintenance schedule</sys_name>
+        <sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package>
+        <sys_parent display_value="CMDB CI Endpoint Http">9f387535db621300a27757c5ca9619ea</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
+        <sys_scope_delete display_value="">c1470e7b2f694db1a23af967d0ce9771</sys_scope_delete>
+        <sys_update_name>cmn_schedule_maintenance_4f102c6847fd8e9040fd43ff336d4388</sys_update_name>
+        <sys_update_version display_value="cmn_schedule_maintenance_4f102c6847fd8e9040fd43ff336d4388">2e70a0a847fd8e9040fd43ff336d4398</sys_update_version>
+        <sys_updated_by>jlbring</sys_updated_by>
+        <sys_updated_on>2024-04-22 20:44:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
