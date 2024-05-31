@@ -4,11 +4,15 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>a8a33755dbfe715040eae46b1396199e</copied_from>
         <copied_from_name>Down Alert Trigger</copied_from_name>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>down_alert_trigger_1</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Alert Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.initial_remote_time","label":"Trigger - Record Created or Updated➛Alert Record➛Initial event generation time","reference":"","reference_display":"Initial event generation time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"initial_remote_time"},{"name":"f9fca44d-ac42-4e31-ab90-98e171932b65.Record","label":"1 - Look Up Record➛Outage Record","reference":"cmdb_ci_outage","reference_display":"Outage","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.cmdb_ci","label":"Trigger - Record Created or Updated➛Alert Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"cmdb_ci"},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Alert Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_created_on"},{"name":"f9fca44d-ac42-4e31-ab90-98e171932b65.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Alert Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"cmdb_ci"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"}]</label_cache>
         <master_snapshot>c329d254db037d1040eae46b1396198f</master_snapshot>
@@ -242,6 +246,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=53345698dbcf3d1040eae46b13961984"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -325,6 +330,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d3345698dbcf3d1040eae46b13961988"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
         <name>FDCollection</name>
@@ -430,6 +436,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fcb41ad8dbcf3d1040eae46b139619cd"/>
     <sys_hub_flow_output action="delete_multiple" query="model=c7345698dbcf3d1040eae46b1396197b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c7345698dbcf3d1040eae46b1396197b"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=c7345698dbcf3d1040eae46b1396197b^sys_idNOT IN5b345698dbcf3d1040eae46b139619ee,df345698dbcf3d1040eae46b139619e6"/>
@@ -438,23 +445,25 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Down Alert Trigger 1">c7345698dbcf3d1040eae46b1396197b</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 16:51:02</sys_created_on>
         <sys_id>5b345698dbcf3d1040eae46b139619ee</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-22 20:22:33</sys_updated_on>
+        <sys_updated_on>2024-05-22 13:14:48</sys_updated_on>
         <ui_id>726ddb1d-5207-495b-a264-0b73414ba57b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5b345698dbcf3d1040eae46b139619ee"/>
@@ -504,23 +513,25 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Down Alert Trigger 1">c7345698dbcf3d1040eae46b1396197b</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 16:51:02</sys_created_on>
         <sys_id>df345698dbcf3d1040eae46b139619e6</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-22 20:22:33</sys_updated_on>
+        <sys_updated_on>2024-05-22 13:14:48</sys_updated_on>
         <ui_id>f9fca44d-ac42-4e31-ab90-98e171932b65</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=df345698dbcf3d1040eae46b139619e6"/>
@@ -594,6 +605,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c7345698dbcf3d1040eae46b1396197b"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c7345698dbcf3d1040eae46b1396197b^sys_idNOT IN17345698dbcf3d1040eae46b139619d8,d7345698dbcf3d1040eae46b139619dd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">47e035351bf6f550824752c1604bcb87</block>
         <comment/>
         <connected_to/>
@@ -604,6 +616,7 @@
         <flow display_value="Down Alert Trigger 1">c7345698dbcf3d1040eae46b1396197b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -670,6 +683,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=17345698dbcf3d1040eae46b139619d8"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=17345698dbcf3d1040eae46b139619d8"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">0be035351bf6f550824752c1604bcb92</block>
         <comment/>
         <connected_to>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</connected_to>
@@ -680,6 +694,7 @@
         <flow display_value="Down Alert Trigger 1">c7345698dbcf3d1040eae46b1396197b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>4</order>
@@ -819,11 +834,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>a8a33755dbfe715040eae46b1396199e</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>down_alert_trigger_1</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Alert Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.initial_remote_time","label":"Trigger - Record Created or Updated➛Alert Record➛Initial event generation time","reference":"","reference_display":"Initial event generation time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"initial_remote_time"},{"name":"f9fca44d-ac42-4e31-ab90-98e171932b65.Record","label":"1 - Look Up Record➛Outage Record","reference":"cmdb_ci_outage","reference_display":"Outage","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.cmdb_ci","label":"Trigger - Record Created or Updated➛Alert Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"cmdb_ci"},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Alert Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_created_on"},{"name":"f9fca44d-ac42-4e31-ab90-98e171932b65.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Alert Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"cmdb_ci"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"}]</label_cache>
         <master>true</master>
@@ -1032,6 +1050,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0b29d254db037d1040eae46b139619b7"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1115,6 +1134,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1f29d254db037d1040eae46b139619bf"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1198,6 +1218,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4b29d254db037d1040eae46b13961991"/>
     <sys_hub_flow_output action="delete_multiple" query="model=c329d254db037d1040eae46b1396198f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c329d254db037d1040eae46b1396198f"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=c329d254db037d1040eae46b1396198f^sys_idNOT IN5b291654db037d1040eae46b13961927,5b291654db037d1040eae46b13961930"/>
@@ -1206,9 +1227,11 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Down Alert Trigger 1">c329d254db037d1040eae46b1396198f</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1298,9 +1321,11 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Down Alert Trigger 1">c329d254db037d1040eae46b1396198f</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1362,6 +1387,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c329d254db037d1040eae46b1396198f"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c329d254db037d1040eae46b1396198f^sys_idNOT IN57291654db037d1040eae46b1396191b,93291654db037d1040eae46b13961916"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">0be035351bf6f550824752c1604bcb92</block>
         <comment/>
         <connected_to>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</connected_to>
@@ -1372,6 +1398,7 @@
         <flow display_value="Down Alert Trigger 1">c329d254db037d1040eae46b1396198f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>4</order>
@@ -1398,6 +1425,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=57291654db037d1040eae46b1396191b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=57291654db037d1040eae46b1396191b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">47e035351bf6f550824752c1604bcb87</block>
         <comment/>
         <connected_to/>
@@ -1408,6 +1436,7 @@
         <flow display_value="Down Alert Trigger 1">c329d254db037d1040eae46b1396198f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1585,14 +1614,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>c7345698dbcf3d1040eae46b1396197b</sys_id>
         <latest_snapshot>c329d254db037d1040eae46b1396198f</latest_snapshot>
-        <compiler_build>glide-utah-12-21-2022__patch10-01-10-2024_01-26-2024_1356.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch2-hotfix1-04-15-2024_04-17-2024_1014.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c7345698dbcf3d1040eae46b1396197b^sys_idNOT INab291654db037d1040eae46b1396195d"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ab291654db037d1040eae46b1396195d","name":"plan","plan_signature":null}}</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ab291654db037d1040eae46b1396195d","name":"plan","plan_signature":null}}</plan>
         <plan_id>c7345698dbcf3d1040eae46b1396197b</plan_id>
-        <snapshot>957660a487f9ce50f9f20f280cbb3541</snapshot>
+        <snapshot>3334e18a87524210f9f20f280cbb35f5</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 17:12:37</sys_created_on>
