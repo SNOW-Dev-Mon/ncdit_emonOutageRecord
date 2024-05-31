@@ -4,11 +4,15 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=15179042000,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>c7345698dbcf3d1040eae46b1396197b</copied_from>
         <copied_from_name>Down Alert Trigger 1</copied_from_name>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>up_alert_trigger_1</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.sys_updated_on","label":"Trigger - Record Created or Updated➛Alert Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_updated_on"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Alert Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"cmdb_ci"},{"name":"f9fca44d-ac42-4e31-ab90-98e171932b65.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Alert Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.cmdb_ci","label":"Trigger - Record Created or Updated➛Alert Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"cmdb_ci"},{"name":"f9fca44d-ac42-4e31-ab90-98e171932b65.Record","label":"1 - Look Up Record➛Outage Record","reference":"cmdb_ci_outage","reference_display":"Outage","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.initial_remote_time","label":"Trigger - Record Created or Updated➛Alert Record➛Initial event generation time","reference":"","reference_display":"Initial event generation time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"initial_remote_time"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Alert Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"}]</label_cache>
         <master_snapshot>54d17298dbc37d1040eae46b13961968</master_snapshot>
@@ -28,15 +32,15 @@
         <sys_created_on>2023-12-07 18:53:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>4a30fa54dbc37d1040eae46b13961949</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Up Alert Trigger 1</sys_name>
         <sys_overrides/>
         <sys_package display_value="Device Outages" source="x_g_sonc_device_ou">9980ffd5dbbe715040eae46b1396196e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name>sys_hub_flow_4a30fa54dbc37d1040eae46b13961949</sys_update_name>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:52</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=4a30fa54dbc37d1040eae46b13961949"/>
@@ -76,15 +80,15 @@
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>4a30fa54dbc37d1040eae46b13961949</identifier>
         <runner>FDTriggerRunner</runner>
-        <sys_created_by>jlbring</sys_created_by>
-        <sys_created_on>2024-01-11 16:34:51</sys_created_on>
-        <sys_id>5b202a6bdb6b7d1040eae46b1396199c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:51</sys_updated_on>
+        <sys_created_by>mnzink</sys_created_by>
+        <sys_created_on>2024-05-31 12:17:21</sys_created_on>
+        <sys_id>ee6d237c87ae0a50f9f20f280cbb35d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:21</sys_updated_on>
         <trigger display_value="">9f202a6bdb6b7d1040eae46b1396199b</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4a30fa54dbc37d1040eae46b13961949^sys_idNOT IN5b202a6bdb6b7d1040eae46b1396199c"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4a30fa54dbc37d1040eae46b13961949^sys_idNOT INee6d237c87ae0a50f9f20f280cbb35d1"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=4a30fa54dbc37d1040eae46b13961949^sys_idNOT IN1630fa54dbc37d1040eae46b1396199e"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -96,14 +100,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 18:53:18</sys_created_on>
         <sys_id>1630fa54dbc37d1040eae46b1396199e</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:52</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -132,10 +136,10 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 21:53:25</sys_created_on>
         <sys_id>70795f9cdb0b7d1040eae46b139619a7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2023-12-07 22:01:02</sys_updated_on>
-        <value>once</value>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:00</sys_updated_on>
+        <value>every</value>
         <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -236,14 +240,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 18:53:17</sys_created_on>
         <sys_id>0a30fa54dbc37d1040eae46b13961978</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:51</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -256,6 +260,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0a30fa54dbc37d1040eae46b13961978"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -319,14 +324,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 18:53:17</sys_created_on>
         <sys_id>0e30fa54dbc37d1040eae46b1396197c</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:51</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -339,6 +344,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0e30fa54dbc37d1040eae46b1396197c"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
         <name>FDCollection</name>
@@ -444,6 +450,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1e30fa54dbc37d1040eae46b1396197f"/>
     <sys_hub_flow_output action="delete_multiple" query="model=4a30fa54dbc37d1040eae46b13961949"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4a30fa54dbc37d1040eae46b13961949"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=4a30fa54dbc37d1040eae46b13961949^sys_idNOT IN1e30fa54dbc37d1040eae46b13961994,78913a58dbc37d1040eae46b1396190d"/>
@@ -452,23 +459,25 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Up Alert Trigger 1">4a30fa54dbc37d1040eae46b13961949</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 18:53:18</sys_created_on>
         <sys_id>1e30fa54dbc37d1040eae46b13961994</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-22 21:07:18</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <ui_id>f9fca44d-ac42-4e31-ab90-98e171932b65</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e30fa54dbc37d1040eae46b13961994"/>
@@ -544,23 +553,25 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Up Alert Trigger 1">4a30fa54dbc37d1040eae46b13961949</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 18:59:13</sys_created_on>
         <sys_id>78913a58dbc37d1040eae46b1396190d</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-22 21:07:18</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <ui_id>de607c53-b800-446b-b6e1-d1e5831c0a1a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=78913a58dbc37d1040eae46b1396190d"/>
@@ -620,6 +631,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4a30fa54dbc37d1040eae46b13961949"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=4a30fa54dbc37d1040eae46b13961949^sys_idNOT IN1630fa54dbc37d1040eae46b1396198b,5230fa54dbc37d1040eae46b13961986"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">0be035351bf6f550824752c1604bcb92</block>
         <comment/>
         <connected_to>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</connected_to>
@@ -630,6 +642,7 @@
         <flow display_value="Up Alert Trigger 1">4a30fa54dbc37d1040eae46b13961949</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>4</order>
@@ -640,14 +653,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 18:53:18</sys_created_on>
         <sys_id>1630fa54dbc37d1040eae46b1396198b</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:52</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <ui_id>03fca208-1ad1-4502-912c-cd62908b696d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -656,6 +669,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1630fa54dbc37d1040eae46b1396198b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1630fa54dbc37d1040eae46b1396198b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">47e035351bf6f550824752c1604bcb87</block>
         <comment/>
         <connected_to/>
@@ -666,6 +680,7 @@
         <flow display_value="Up Alert Trigger 1">4a30fa54dbc37d1040eae46b13961949</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -677,14 +692,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 18:53:18</sys_created_on>
         <sys_id>5230fa54dbc37d1040eae46b13961986</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:52</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <ui_id>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -862,11 +877,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>c7345698dbcf3d1040eae46b1396197b</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>up_alert_trigger_1</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.sys_updated_on","label":"Trigger - Record Created or Updated➛Alert Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_updated_on"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"},{"name":"Created_1.current.cmdb_ci","label":"Trigger - Record Created➛Alert Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"cmdb_ci"},{"name":"f9fca44d-ac42-4e31-ab90-98e171932b65.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Alert Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.cmdb_ci","label":"Trigger - Record Created or Updated➛Alert Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"cmdb_ci"},{"name":"f9fca44d-ac42-4e31-ab90-98e171932b65.Record","label":"1 - Look Up Record➛Outage Record","reference":"cmdb_ci_outage","reference_display":"Outage","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.initial_remote_time","label":"Trigger - Record Created or Updated➛Alert Record➛Initial event generation time","reference":"","reference_display":"Initial event generation time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"initial_remote_time"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Alert Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"em_alert","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Alert Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"number"}]</label_cache>
         <master>true</master>
@@ -884,15 +902,15 @@
         <sys_created_on>2023-12-07 19:00:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>54d17298dbc37d1040eae46b13961968</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:50</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:21</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_variable_value action="delete_multiple" query="document_key=54d17298dbc37d1040eae46b13961968"/>
@@ -907,14 +925,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 19:00:17</sys_created_on>
         <sys_id>6cd17298dbc37d1040eae46b139619dd</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:51</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -943,10 +961,10 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 21:53:28</sys_created_on>
         <sys_id>657913dcdb0b7d1040eae46b13961991</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2023-12-07 22:01:09</sys_updated_on>
-        <value>once</value>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:20</sys_updated_on>
+        <value>every</value>
         <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1047,14 +1065,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 19:00:16</sys_created_on>
         <sys_id>28d17298dbc37d1040eae46b13961983</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:50</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1067,6 +1085,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=28d17298dbc37d1040eae46b13961983"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
         <name>FDCollection</name>
@@ -1172,6 +1191,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=68d17298dbc37d1040eae46b139619a0"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1235,14 +1255,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 19:00:17</sys_created_on>
         <sys_id>6cd17298dbc37d1040eae46b139619a8</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:50</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1255,6 +1275,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6cd17298dbc37d1040eae46b139619a8"/>
     <sys_hub_flow_output action="delete_multiple" query="model=54d17298dbc37d1040eae46b13961968"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=54d17298dbc37d1040eae46b13961968"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=54d17298dbc37d1040eae46b13961968^sys_idNOT INa8d17298dbc37d1040eae46b139619db,e4d17298dbc37d1040eae46b139619d2"/>
@@ -1263,23 +1284,25 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Up Alert Trigger 1">54d17298dbc37d1040eae46b13961968</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 19:00:17</sys_created_on>
         <sys_id>a8d17298dbc37d1040eae46b139619db</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:50</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:21</sys_updated_on>
         <ui_id>de607c53-b800-446b-b6e1-d1e5831c0a1a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a8d17298dbc37d1040eae46b139619db"/>
@@ -1341,23 +1364,25 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Up Alert Trigger 1">54d17298dbc37d1040eae46b13961968</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 19:00:17</sys_created_on>
         <sys_id>e4d17298dbc37d1040eae46b139619d2</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:50</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:21</sys_updated_on>
         <ui_id>f9fca44d-ac42-4e31-ab90-98e171932b65</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e4d17298dbc37d1040eae46b139619d2"/>
@@ -1431,6 +1456,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=54d17298dbc37d1040eae46b13961968"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=54d17298dbc37d1040eae46b13961968^sys_idNOT IN20d17298dbc37d1040eae46b139619c1,e0d17298dbc37d1040eae46b139619c6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">47e035351bf6f550824752c1604bcb87</block>
         <comment/>
         <connected_to/>
@@ -1441,6 +1467,7 @@
         <flow display_value="Up Alert Trigger 1">54d17298dbc37d1040eae46b13961968</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1452,14 +1479,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 19:00:17</sys_created_on>
         <sys_id>20d17298dbc37d1040eae46b139619c1</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:50</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:21</sys_updated_on>
         <ui_id>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1507,6 +1534,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=20d17298dbc37d1040eae46b139619c1"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=20d17298dbc37d1040eae46b139619c1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">0be035351bf6f550824752c1604bcb92</block>
         <comment/>
         <connected_to>f6e9e72f-b1d1-42be-bdeb-de8ab0c8e2f5</connected_to>
@@ -1517,6 +1545,7 @@
         <flow display_value="Up Alert Trigger 1">54d17298dbc37d1040eae46b13961968</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>4</order>
@@ -1527,14 +1556,14 @@
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 19:00:17</sys_created_on>
         <sys_id>e0d17298dbc37d1040eae46b139619c6</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:50</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:21</sys_updated_on>
         <ui_id>03fca208-1ad1-4502-912c-cd62908b696d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1675,24 +1704,24 @@
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=4a30fa54dbc37d1040eae46b13961949^sys_idNOT INf0d1b298dbc37d1040eae46b13961909"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f0d1b298dbc37d1040eae46b13961909","name":"plan","plan_signature":null}}</plan>
         <plan_id>4a30fa54dbc37d1040eae46b13961949</plan_id>
-        <snapshot>fcb0f42847b1ce9040fd43ff336d43e7</snapshot>
+        <snapshot>54d17298dbc37d1040eae46b13961968</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>jlbring</sys_created_by>
         <sys_created_on>2023-12-07 19:00:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f0d1b298dbc37d1040eae46b13961909</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Device Outages">9980ffd5dbbe715040eae46b1396196e</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>jlbring</sys_updated_by>
-        <sys_updated_on>2024-01-11 16:34:51</sys_updated_on>
+        <sys_updated_by>mnzink</sys_updated_by>
+        <sys_updated_on>2024-05-31 12:17:22</sys_updated_on>
         <trigger display_value="">9f202a6bdb6b7d1040eae46b1396199b</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4a30fa54dbc37d1040eae46b13961949"/>
